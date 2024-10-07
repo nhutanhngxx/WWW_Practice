@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e0e0e0;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.mess-hello {
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #333;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: center;
+    width: 80%; /* Đặt chiều rộng của buttons-group bằng với table */
+    margin: 20px auto; /* Căn giữa phần nút và tạo khoảng cách từ trên xuống */
+}
+
+.logout {
+    margin-right: auto;
+}
+
+.group-inline {
+    display: flex;
+    gap: 10px;
+}
+
+button[value="logout"], button[value="delete"] {
+    background-color: #EB1212;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER FORM</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div class="form-register">
+            <h1>Register</h1>
+            <form action="register" method="get" name="registrationForm">
+                <label for="name">Name<span class="required">*</span></label><br/>
+                <div class="name">
+                    <div class="firstname">
+                        <input type="text" id="firstname" name="firstname" required> <br>
+                        <small>First name</small>
+                    </div>
+                    <div class="lastname">
+                        <input type="text" id="lastname" name="lastname" required> <br>
+                        <small>Last name</small>
+                    </div>
+                </div>
+                <br/>
+                <label for="username">Username<span class="required">*</span></label><br/>
+                <input type="text" id="username" name="username" required> <br/>
+                <label for="email">E-mail<span class="required">*</span></label><br/>
+                <input type="email" id="email" name="email" required> <br/>
+                <label for="password">Password<span class="required">*</span></label><br/>
+                <input type="password" id="password" name="password" required> <br/>
+                <label>Facebook</label>
+                <div>
+                    <input type="text" id="facebook" name="facebook"> <br/>
+                    <small>Enter your Facebook profile URL</small>
+                </div>
+                <label>Short Bio</label>
+                <div>
+                    <textarea id="shortbio" name="shortbio"></textarea> <br/>
+                    <small>Share a little information about yourself</small>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
